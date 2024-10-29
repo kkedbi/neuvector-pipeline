@@ -1,4 +1,4 @@
-FROM nginx:1.27-alpine
+FROM nginx:1.26-alpine
 
 # Copy the custom index.html to the default NGINX html directory
 COPY index.html /usr/share/nginx/html/index.html
